@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity() {
                 fullscreenContainer.addView(view)
                 fullscreenContainer.visibility = View.VISIBLE
                 mainContent.visibility = View.GONE
-                setImmersive(true)
+                toggleFullscreen(true)
                 requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_SENSOR
             }
 
@@ -202,11 +202,11 @@ class MainActivity : AppCompatActivity() {
         customView = null
         customViewCallback?.onCustomViewHidden()
         customViewCallback = null
-        setImmersive(false)
+        toggleFullscreen(false)
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
     }
 
-    private fun setImmersive(on: Boolean) {
+    private fun toggleFullscreen(on: Boolean) {
         WindowCompat.setDecorFitsSystemWindows(window, !on)
         val c = WindowInsetsControllerCompat(window, window.decorView)
         if (on) {
