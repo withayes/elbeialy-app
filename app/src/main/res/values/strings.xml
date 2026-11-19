@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">مقاطع البيعلي</string>
+    <string name="tagline">الاعتصام بالسنة نجاة</string>
+    <string name="offline_title">لا يوجد اتصال بالإنترنت</string>
+    <string name="offline_msg">تحقّق من اتصالك ثم أعد المحاولة</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="press_back_again">اضغط مرة أخرى للخروج</string>
+    <string name="share">مشاركة</string>
+</resources>

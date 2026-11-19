@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.Elbeialy" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/emerald_800</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="android:colorBackground">@color/emerald_900</item>
+        <item name="android:windowBackground">@color/emerald_900</item>
+        <item name="android:statusBarColor">@color/emerald_900</item>
+        <item name="android:navigationBarColor">@color/emerald_900</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Elbeialy.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/emerald_900</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_star</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Theme.Elbeialy</item>
+    </style>
+</resources>

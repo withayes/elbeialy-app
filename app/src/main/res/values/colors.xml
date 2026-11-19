@@ -1,0 +1,10 @@
+<resources>
+    <!-- لوحة ألوان إسلامية عصرية -->
+    <color name="emerald_900">#042A23</color>
+    <color name="emerald_800">#063D32</color>
+    <color name="emerald_600">#0B5E4C</color>
+    <color name="gold">#C9A54C</color>
+    <color name="gold_light">#E6CC85</color>
+    <color name="ivory">#F7F1E3</color>
+    <color name="white">#FFFFFF</color>
+</resources>
